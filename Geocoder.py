@@ -10,10 +10,10 @@ from pygeocoder import GeocoderError
 #You can geocode up to 2500 properties a day (per IP Address)
 #Upload the resulting newfile.csv to Google Fusion Tables for an instant google map.
 
-input_file = open('C:/Users/shaohu.zhang@sdstate.edu/Desktop/csv/myCSV.csv', 'r') #Open your .csv file
+input_file = open('C:/Users/Desktop/csv/myCSV.csv', 'r') #Open your .csv file
 #Make an empty .csv This is where your geocodes will end up. if you are running Python 2.X, please use "wb" flag, which can avoid blank rowin output CSV.
 # if Python 3.X, you may use "w" flag.
-output_file = open('C:/Users/shaohu.zhang@sdstate.edu/Desktop/csv/newCSV.csv', 'wb') #output your result
+output_file = open('C:/Users/Desktop/csv/newCSV.csv', 'wb') #output your result
 data = csv.reader(input_file)
 print("begin")
 for line in data:
