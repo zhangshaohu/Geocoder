@@ -1,5 +1,6 @@
 # Reference:https://github.com/laurenarcher/SimpleCsvGeocoder/blob/master/csvGeocoder.py
 # pygeocoder is a module from http://code.xster.net/pygeocoder/wiki/Home. You need to install this module at first
+# Shaohu Zhang
 
 import csv
 import time
